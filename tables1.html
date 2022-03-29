@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+
+    <body>
+        <table border="1"
+               align="center"
+               cellpadding="10px"
+               cellspacing="10px">
+            <tr>
+                <th>SNO</th>
+                <th>P_ID</th>
+                <th colspan="2">P_NAME & P_COST</th>
+                
+            </tr>
+
+            <tr>
+                <td rowspan="2">1 <br><br> 2</td>
+                <td rowspan="3">P101 <br> P102 <br> P103</td>
+                <td>P_ONE</td>
+                <td>10000</td>
+            </tr>
+
+            <tr>
+                <td>P_TWO</td>
+                <td rowspan="3">20000 <br> 30000 <br> 40000</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>P_THREE</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td colspan="2">P104 & P_FOUR</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">5 & P105 & P_FIVE</td>
+                <td>50000</td>
+            </tr>
+        </table>
+    </body>
+</html>
