@@ -1,0 +1,136 @@
+1) Introduction to CSS
+
+2) CSS Selectors
+
+    class Selectors
+
+    id Selectors
+
+    universal Selectors
+
+    ---
+    ---
+    ---
+
+3) Positions
+
+    static position
+
+    relative position
+
+    absolute position
+
+    fixed position
+
+    sticky position
+
+4) z-index
+
+5) Flex Box
+
+6) Grid Box
+
+7) Media Queries (Responsive Web Design)
+
+8) SASS/LESS
+
+9) Psudo Elements / Psudo Classes
+
+
+Introduction to CSS
+*******************
+
+CSS Stands for Cascading Style Sheet
+
+CSS Used to apply the styles to the static webpages
+
+current version of CSS is CSS3.0
+
+<style></style> tag used to include the CSS to webpages
+
+Ex.
+    <html>
+        <head>
+            <style>
+                //CSS
+            </style>
+        </head>
+
+        <body></body>
+    </html>
+
+style attribute used to write the inline css
+
+Ex.
+    <p style="color:red">Hello</p>
+
+
+<link> tag, used to link the external style sheets
+
+Ex.
+    <html>
+        <head>
+            <link rel="stylesheet" href="file1.css">
+        </head>
+        <body></body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
