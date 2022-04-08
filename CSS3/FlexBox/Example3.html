@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Box</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                height: 100%;
+            }
+            .header{
+                height: 10vh;
+                background-color: #203040;
+                color: #ffffff;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            i{
+                margin-right: 10px;
+            }
+            .logo:hover,i:hover{
+                color: orange;
+            }
+            .main{
+                height: 80vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer{
+                height: 10vh;
+                background-color: #203040;
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+           
+            <div class="header">
+                <div class="logo">AshokIT</div>
+
+                <div>
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-user-circle-o"></i>
+                    <i class="fa fa-sign-out"></i>
+                </div>
+            </div>
+
+            <div class="main">
+                <img src="logo.jpg">
+            </div>
+
+            <div class="footer">
+                copyright@ashokit.in
+            </div>
+        </div>
+    
+    </body>
+</html>
