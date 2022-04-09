@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Box Example</title>
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
+            }
+            .logo{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+            }   
+            .content{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .para1{
+                flex: 1;
+            }
+            .para2{
+                flex: 1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg">
+            </div>
+
+            <div class="content">
+                <div class="para1">Paragraph1</div>
+                <div class="para2">Paragraph2</div>
+            </div>
+        </div>
+    </body>
+</html>
