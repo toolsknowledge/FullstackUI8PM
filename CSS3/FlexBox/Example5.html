@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Box</title>
+        <style>
+            .common{
+                color: white;
+                width: 100px;
+                height: 50px;
+                text-align: center;
+            }
+            .one{
+                background-color: red;
+                flex: 1;
+            }
+            .two{
+                background-color: green;
+                flex: 1;
+            }
+            .three{
+                background-color: brown;
+                flex: 2;
+            }
+            .four{
+                background-color: blue;
+                flex: 2;
+            }
+            .five{
+                background-color: yellowgreen;
+                flex: 1;
+            }
+
+            .container{
+                display: flex;
+                gap: 10px;
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="common one">1</div>
+            <div class="common two">2</div>
+            <div class="common three">3</div>
+            <div class="common four">4</div>
+            <div class="common five">5</div>
+        </div>
+    </body>
+</html>

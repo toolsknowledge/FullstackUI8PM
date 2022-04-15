@@ -78,6 +78,32 @@ Ex.
 
 
 
+Positions
+*********
+   CSS Supports following Positions
+
+    1) relative position
+
+    2) absolute position
+
+    3) fixed position
+
+    4) static position
+
+    5) sticky position
+
+
+relative position
+*****************
+        moving particular element from origin called as relative position
+
+
+
+Media Queries
+*************
+
+
+
 
 
 
