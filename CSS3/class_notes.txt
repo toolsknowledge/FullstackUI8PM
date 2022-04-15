@@ -101,6 +101,39 @@ relative position
 
 Media Queries
 *************
+    Execution of webpages into multiple devices called as Responsive Web Design
+
+    Responsive Web Design also called as Media Queries
+
+    to reuse styles we need variables and functions.
+
+    but veraible and functions not supported by CSS.
+
+    variables and functions supported by SCSS
+
+    SCSS also called as Preprocessor of CSS
+
+    we will save the scss files with .scss extension
+
+    in general, browsers won't understand SCSS.
+
+    so, we must convert SCSS to Equalent CSS.
+
+    we will convert SCSS to CSS with the Live Sass Compiler.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

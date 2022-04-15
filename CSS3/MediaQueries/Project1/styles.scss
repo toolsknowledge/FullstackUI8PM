@@ -1,0 +1,57 @@
+$mobile : 576px;
+$tablet : 768px;
+$laptop : 992px;
+$desktop : 1200px;
+
+$color-1:red;
+$color-2:green;
+$color-3:blue;
+$color-4:yellow;
+
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+body{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#size{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+@media only screen and (max-width:$desktop){
+    .container{
+        background-color: $color-4;
+    }
+}
+
+
+@media only screen and (max-width:$laptop){
+    .container{
+        background-color: $color-3;
+    }
+}
+
+@media only screen and (max-width:$tablet){
+    .container{
+        background-color: $color-2;
+    }
+}
+
+
+@media only screen and (max-width:$mobile){
+    .container{
+        background-color: $color-1;
+    }
+}
+

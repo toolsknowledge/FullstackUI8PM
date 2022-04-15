@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#size {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    background-color: yellow;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    background-color: green;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
