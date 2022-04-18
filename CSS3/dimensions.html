@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dimensions</title>
+        <style>
+            .parent{
+                width: 140px;
+                font-size: 50px;
+            }
+            .percentage{
+                width: 50%;
+                background-color: red;
+                color: white;
+                margin-bottom: 10px;
+            }
+
+            .pixels{
+                width: 100px;
+                background-color: red;
+                color: white;
+                margin-bottom: 10px;
+            }
+
+            .viewport{
+                width: 50vw;
+                background-color: red;
+                color: white;
+                margin-bottom: 10px;
+            }
+            .remclass{
+                font-size: 1rem;
+            }
+            .emclass{
+                font-size: 1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="percentage">50%</div>
+        <div class="pixels">100px</div>
+        <div class="viewport">50vw</div>
+        <div class="remclass">1rem</div>
+        <div class="emclass">1em</div>
+
+        <div class="parent">
+            <div class="percentage">50%</div>
+            <div class="pixels">100px</div>
+            <div class="viewport">50vw</div>
+            <div class="remclass">1rem</div>
+            <div class="emclass">1em</div>
+        </div>
+
+    </body>
+</html>
