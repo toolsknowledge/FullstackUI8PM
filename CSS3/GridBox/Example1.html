@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Box</title>
+        <style>
+            .grid-item{
+                background-color: aqua;
+                padding: 10px;
+                border: 1px solid red;
+            }
+            .grid-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                /* grid-row-gap: 10px;
+                grid-column-gap: 10px; */
+                grid-gap: 10px;
+                /* grid-template-rows: 150px 150px 150px 150px; */
+                /* grid-template-rows: repeat(4,150px); */
+                /* grid-auto-rows: 150px; */
+                grid-auto-rows: minmax(200px,auto);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium quos ut quidem. Reprehenderit, aperiam neque ea sequi assumenda similique pariatur et repellendus expedita voluptatem distinctio quam maiores? Ea expedita earum laudantium voluptatum libero doloremque, nisi iure tenetur, optio, voluptatibus quisquam minus quis rerum explicabo aspernatur error modi totam itaque a eum necessitatibus quod! Animi ratione laborum officiis modi, at assumenda ipsam reiciendis id voluptatum tempora pariatur odit labore inventore vel doloribus doloremque illum harum accusamus voluptates omnis adipisci, veritatis exercitationem, eaque sunt! Iure minus reprehenderit aspernatur dicta unde quam vel voluptas sint possimus rerum quis similique eos reiciendis, eveniet mollitia deserunt esse distinctio consequuntur voluptatum molestias earum repudiandae nulla. Obcaecati quaerat nemo veritatis deleniti? Quis eius ipsa accusantium voluptates, quidem reprehenderit dolorem ea, repellat, nobis inventore ipsum autem? Ducimus architecto nobis velit vel? Facilis ipsa quas pariatur veniam, corporis earum perferendis officia. Illum, necessitatibus facere. Voluptas esse quo tempora iure quasi nulla rerum, expedita facere? Maiores eum, id consequatur doloribus repellat veniam? Ea sequi nisi totam modi optio consequuntur, dolores magni, expedita nostrum dignissimos enim maxime dicta. Dolorem et porro incidunt neque quae nisi quaerat, nesciunt repudiandae exercitationem accusantium deleniti? Quasi, tempore commodi. Similique culpa a quisquam perspiciatis atque.</div>
+            <div class="grid-item">Div2</div>
+            <div class="grid-item">Div3</div>
+            <div class="grid-item">Div4</div>
+            <div class="grid-item">Div5</div>
+            <div class="grid-item">Div6</div>
+            <div class="grid-item">Div7</div>
+        </div>
+    </body>
+</html>

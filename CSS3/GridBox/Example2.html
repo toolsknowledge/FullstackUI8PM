@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Box Example</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            .grid-container{
+                display: grid;
+                height: 100vh;
+                grid-template-columns: 1fr;
+                grid-template-rows: 5rem 1fr 5rem;
+                grid-template-areas: "A"
+                                     "B"
+                                     "C";
+            }  
+            header{
+                grid-area: "A";
+                background-color: #203040;
+                color: white;
+            }  
+            main{
+                grid-area: "B";
+            }   
+            footer{
+                grid-area: "C";
+            }
+            .grid-header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                font-size: 3rem;
+            }
+            i{
+                margin-right: 20px;
+            }
+
+            .logo:hover,i:hover{
+                color: orange;
+            }
+
+            footer{
+                background-color: #203040;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="grid-header">
+                <div class="logo">
+                    Logo
+                </div>
+                <div>
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-user-circle-o"></i>
+                    <i class="fa fa-sign-out"></i>
+                </div>
+            </header>
+          
+            <main>
+                Content Soon...!         
+            </main>
+
+            <footer>
+                copyright@miniproject.in
+            </footer>
+        </div>
+    </body>
+</html>
